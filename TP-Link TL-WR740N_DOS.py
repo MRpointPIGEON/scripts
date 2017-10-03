@@ -1,7 +1,7 @@
 
-
 #    TP-Link TL-WR740N HTTPD denial of service exploit
 #    Source:https://www.exploit-db.com/exploits/35345/
+#    Vulnerable devices: TP-LINK TL-MR3220/TP-Link TL-WR740N
 
 from sys import argv, exit
 import socket
